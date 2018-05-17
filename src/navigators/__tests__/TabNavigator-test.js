@@ -2,15 +2,13 @@ import React, { Component } from 'react';
 import { View } from 'react-native';
 import renderer from 'react-test-renderer';
 
-const {
-  createTabNavigator,
-} = require('react-navigation-deprecated-tab-navigator');
+import TabNavigator from '../TabNavigator';
 
 class HomeScreen extends Component {
   static navigationOptions = ({ navigation }) => ({
-    title: `Welcome ${
-      navigation.state.params ? navigation.state.params.user : 'anonymous'
-    }`,
+    title: `Welcome ${navigation.state.params
+      ? navigation.state.params.user
+      : 'anonymous'}`,
     gesturesEnabled: true,
   });
 
@@ -27,7 +25,7 @@ const routeConfig = {
 
 describe('TabNavigator', () => {
   it('renders successfully', () => {
-    const MyTabNavigator = createTabNavigator(routeConfig);
+    const MyTabNavigator = TabNavigator(routeConfig);
     const rendered = renderer.create(<MyTabNavigator />).toJSON();
 
     expect(rendered).toMatchSnapshot();

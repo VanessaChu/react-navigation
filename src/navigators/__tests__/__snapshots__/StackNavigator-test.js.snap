@@ -51,7 +51,6 @@ exports[`StackNavigator applies correct values when headerRight is present 1`] =
             "backgroundColor": "#E9E9EF",
             "bottom": 0,
             "left": 0,
-            "marginTop": 0,
             "opacity": 1,
             "position": "absolute",
             "right": 0,
@@ -76,28 +75,59 @@ exports[`StackNavigator applies correct values when headerRight is present 1`] =
       />
     </View>
     <View
+      cardStyle={undefined}
       collapsable={undefined}
-      style={
+      getScreenDetails={[Function]}
+      headerMode={undefined}
+      index={0}
+      layout={
         Object {
-          "transform": Array [
-            Object {
-              "translateX": 0,
-            },
-          ],
+          "height": 0,
+          "initHeight": 0,
+          "initWidth": 0,
+          "isMeasured": false,
+          "width": 0,
         }
       }
+      mode="float"
+      navigation={
+        Object {
+          "dispatch": [Function],
+          "goBack": [Function],
+          "navigate": [Function],
+          "setParams": [Function],
+          "state": Object {
+            "index": 0,
+            "routes": Array [
+              Object {
+                "key": "Init-id-0-1",
+                "routeName": "Home",
+              },
+            ],
+          },
+        }
+      }
+      router={
+        Object {
+          "getActionForPathAndParams": [Function],
+          "getComponentForRouteName": [Function],
+          "getComponentForState": [Function],
+          "getPathAndParamsForState": [Function],
+          "getScreenConfig": [Function],
+          "getScreenOptions": [Function],
+          "getStateForAction": [Function],
+        }
+      }
+      transitionConfig={undefined}
     >
       <View
-        collapsable={undefined}
         onLayout={[Function]}
-        pointerEvents="box-none"
         style={
           Object {
-            "backgroundColor": "red",
-            "borderBottomColor": "#A7A7AA",
+            "backgroundColor": "#F7F7F7",
+            "borderBottomColor": "rgba(0, 0, 0, .3)",
             "borderBottomWidth": 0.5,
             "height": 64,
-            "opacity": 0.5,
             "paddingBottom": 0,
             "paddingLeft": 0,
             "paddingRight": 0,
@@ -108,31 +138,24 @@ exports[`StackNavigator applies correct values when headerRight is present 1`] =
         <View
           style={
             Object {
-              "bottom": 0,
-              "left": 0,
-              "position": "absolute",
-              "right": 0,
-              "top": 0,
-            }
-          }
-        />
-        <View
-          style={
-            Object {
               "flex": 1,
             }
           }
         >
           <View
             style={
-              Object {
-                "bottom": 0,
-                "flexDirection": "row",
-                "left": 0,
-                "position": "absolute",
-                "right": 0,
-                "top": 0,
-              }
+              Array [
+                Object {
+                  "bottom": 0,
+                  "left": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                },
+                Object {
+                  "flexDirection": "row",
+                },
+              ]
             }
           >
             <View
@@ -143,13 +166,17 @@ exports[`StackNavigator applies correct values when headerRight is present 1`] =
                   "alignItems": "center",
                   "backgroundColor": "transparent",
                   "bottom": 0,
-                  "flexDirection": "row",
                   "justifyContent": "center",
                   "left": 70,
                   "opacity": 1,
                   "position": "absolute",
                   "right": 70,
                   "top": 0,
+                  "transform": Array [
+                    Object {
+                      "translateX": 0,
+                    },
+                  ],
                 }
               }
             >
@@ -165,7 +192,7 @@ exports[`StackNavigator applies correct values when headerRight is present 1`] =
                   Object {
                     "color": "rgba(0, 0, 0, .9)",
                     "fontSize": 17,
-                    "fontWeight": "700",
+                    "fontWeight": "600",
                     "marginHorizontal": 16,
                     "textAlign": "center",
                   }
@@ -182,7 +209,7 @@ exports[`StackNavigator applies correct values when headerRight is present 1`] =
                   "alignItems": "center",
                   "backgroundColor": "transparent",
                   "bottom": 0,
-                  "flexDirection": "row",
+                  "justifyContent": "center",
                   "opacity": 1,
                   "position": "absolute",
                   "right": 0,
@@ -251,7 +278,6 @@ exports[`StackNavigator renders successfully 1`] = `
             "backgroundColor": "#E9E9EF",
             "bottom": 0,
             "left": 0,
-            "marginTop": 0,
             "opacity": 1,
             "position": "absolute",
             "right": 0,
@@ -276,28 +302,59 @@ exports[`StackNavigator renders successfully 1`] = `
       />
     </View>
     <View
+      cardStyle={undefined}
       collapsable={undefined}
-      style={
+      getScreenDetails={[Function]}
+      headerMode={undefined}
+      index={0}
+      layout={
         Object {
-          "transform": Array [
-            Object {
-              "translateX": 0,
-            },
-          ],
+          "height": 0,
+          "initHeight": 0,
+          "initWidth": 0,
+          "isMeasured": false,
+          "width": 0,
         }
       }
+      mode="float"
+      navigation={
+        Object {
+          "dispatch": [Function],
+          "goBack": [Function],
+          "navigate": [Function],
+          "setParams": [Function],
+          "state": Object {
+            "index": 0,
+            "routes": Array [
+              Object {
+                "key": "Init-id-0-0",
+                "routeName": "Home",
+              },
+            ],
+          },
+        }
+      }
+      router={
+        Object {
+          "getActionForPathAndParams": [Function],
+          "getComponentForRouteName": [Function],
+          "getComponentForState": [Function],
+          "getPathAndParamsForState": [Function],
+          "getScreenConfig": [Function],
+          "getScreenOptions": [Function],
+          "getStateForAction": [Function],
+        }
+      }
+      transitionConfig={undefined}
     >
       <View
-        collapsable={undefined}
         onLayout={[Function]}
-        pointerEvents="box-none"
         style={
           Object {
-            "backgroundColor": "red",
-            "borderBottomColor": "#A7A7AA",
+            "backgroundColor": "#F7F7F7",
+            "borderBottomColor": "rgba(0, 0, 0, .3)",
             "borderBottomWidth": 0.5,
             "height": 64,
-            "opacity": 0.5,
             "paddingBottom": 0,
             "paddingLeft": 0,
             "paddingRight": 0,
@@ -308,31 +365,24 @@ exports[`StackNavigator renders successfully 1`] = `
         <View
           style={
             Object {
-              "bottom": 0,
-              "left": 0,
-              "position": "absolute",
-              "right": 0,
-              "top": 0,
-            }
-          }
-        />
-        <View
-          style={
-            Object {
               "flex": 1,
             }
           }
         >
           <View
             style={
-              Object {
-                "bottom": 0,
-                "flexDirection": "row",
-                "left": 0,
-                "position": "absolute",
-                "right": 0,
-                "top": 0,
-              }
+              Array [
+                Object {
+                  "bottom": 0,
+                  "left": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                },
+                Object {
+                  "flexDirection": "row",
+                },
+              ]
             }
           >
             <View
@@ -343,13 +393,17 @@ exports[`StackNavigator renders successfully 1`] = `
                   "alignItems": "center",
                   "backgroundColor": "transparent",
                   "bottom": 0,
-                  "flexDirection": "row",
                   "justifyContent": "center",
                   "left": 0,
                   "opacity": 1,
                   "position": "absolute",
                   "right": 0,
                   "top": 0,
+                  "transform": Array [
+                    Object {
+                      "translateX": 0,
+                    },
+                  ],
                 }
               }
             >
@@ -365,7 +419,7 @@ exports[`StackNavigator renders successfully 1`] = `
                   Object {
                     "color": "rgba(0, 0, 0, .9)",
                     "fontSize": 17,
-                    "fontWeight": "700",
+                    "fontWeight": "600",
                     "marginHorizontal": 16,
                     "textAlign": "center",
                   }

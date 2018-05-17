@@ -20,6 +20,111 @@ exports[`TabBarBottom renders successfully 1`] = `
     ]
   }
 >
+  <View
+    collapsable={undefined}
+    style={undefined}
+  >
+    <View
+      onLayout={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#F7F7F7",
+          "borderTopColor": "rgba(0, 0, 0, .3)",
+          "borderTopWidth": 0.5,
+          "flexDirection": "row",
+          "height": 49,
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 0,
+        }
+      }
+    >
+      <View
+        accessibilityComponentType={undefined}
+        accessibilityLabel={undefined}
+        accessibilityTraits={undefined}
+        accessible={true}
+        collapsable={undefined}
+        hitSlop={undefined}
+        nativeID={undefined}
+        onLayout={undefined}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "flex": 1,
+            "justifyContent": "flex-end",
+          }
+        }
+        testID={undefined}
+      >
+        <View
+          style={
+            Object {
+              "flexGrow": 1,
+            }
+          }
+        >
+          <View
+            collapsable={undefined}
+            style={
+              Object {
+                "alignItems": "center",
+                "bottom": 0,
+                "justifyContent": "center",
+                "left": 0,
+                "opacity": 1,
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              }
+            }
+          />
+          <View
+            collapsable={undefined}
+            style={
+              Object {
+                "alignItems": "center",
+                "bottom": 0,
+                "justifyContent": "center",
+                "left": 0,
+                "opacity": 0,
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              }
+            }
+          />
+        </View>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          collapsable={undefined}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "backgroundColor": "transparent",
+              "color": "rgba(52, 120, 246, 1)",
+              "fontSize": 10,
+              "marginBottom": 1.5,
+              "marginLeft": 0,
+              "marginTop": 0,
+              "textAlign": "center",
+            }
+          }
+        >
+          s1
+        </Text>
+      </View>
+    </View>
+  </View>
   <RCTScrollView
     DEPRECATED_sendUpdatedChildFrames={false}
     alwaysBounceHorizontal={false}
@@ -28,7 +133,7 @@ exports[`TabBarBottom renders successfully 1`] = `
     bounces={false}
     contentContainerStyle={
       Object {
-        "flex": 1,
+        "flexGrow": 1,
       }
     }
     contentOffset={
@@ -55,14 +160,12 @@ exports[`TabBarBottom renders successfully 1`] = `
     onScrollShouldSetResponder={[Function]}
     onStartShouldSetResponder={[Function]}
     onStartShouldSetResponderCapture={[Function]}
-    onTouchCancel={[Function]}
     onTouchEnd={[Function]}
     onTouchMove={[Function]}
     onTouchStart={[Function]}
-    overScrollMode="never"
     pagingEnabled={true}
     scrollEnabled={undefined}
-    scrollEventThrottle={1}
+    scrollEventThrottle={16}
     scrollsToTop={false}
     sendMomentumEvents={true}
     showsHorizontalScrollIndicator={false}
@@ -75,7 +178,7 @@ exports[`TabBarBottom renders successfully 1`] = `
           "overflow": "scroll",
         },
         Object {
-          "flex": 1,
+          "flexGrow": 1,
         },
       ]
     }
@@ -89,7 +192,7 @@ exports[`TabBarBottom renders successfully 1`] = `
             "flexDirection": "row",
           },
           Object {
-            "flex": 1,
+            "flexGrow": 1,
           },
         ]
       }
@@ -104,8 +207,6 @@ exports[`TabBarBottom renders successfully 1`] = `
         testID={undefined}
       >
         <View
-          collapsable={false}
-          removeClippedSubviews={false}
           style={
             Object {
               "flex": 1,
@@ -114,24 +215,20 @@ exports[`TabBarBottom renders successfully 1`] = `
           }
         >
           <View
-            style={
+            navigation={
               Object {
-                "flex": 1,
+                "dispatch": undefined,
+                "goBack": [Function],
+                "navigate": [Function],
+                "setParams": [Function],
+                "state": Object {
+                  "key": "s1",
+                  "routeName": "s1",
+                },
               }
             }
-          >
-            <View
-              navigation={
-                Object {
-                  "state": Object {
-                    "key": "s1",
-                    "routeName": "s1",
-                  },
-                }
-              }
-              screenProps={undefined}
-            />
-          </View>
+            screenProps={undefined}
+          />
         </View>
       </View>
     </RCTScrollContentView>
